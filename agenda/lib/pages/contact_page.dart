@@ -62,7 +62,7 @@ class _ContactPageState extends State<ContactPage> {
           padding: EdgeInsets.all(10.0),
           child: Column(
             children: <Widget>[
-              pc(
+              /*pc(
                 width: 140.0,
                 height: 140.0,
                 decoration: BoxDecoration(
@@ -71,7 +71,7 @@ class _ContactPageState extends State<ContactPage> {
                       image: AssetImage("assets/images/person.png"),
                       fit: BoxFit.cover),
                 ),
-              ),
+              ),*/
               TextField(
                 controller: _nameController,
                 focusNode: _nameFocus,
